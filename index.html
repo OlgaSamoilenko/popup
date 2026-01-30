@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <div id="overlay"></div>
+    <div class="container">
+      <div class="wrapper">
+        <h1> Поп-ап для удаления товаров из корзины</h1>
+          <button class="btn" id="delete-btn">
+            Нажми меня
+        </button>
+      </div>
+    
+    <div class="popup" id="popup">
+        <div class="popup_wrapper">
+            <h2> Вы действительно хотите удалить все товары из корзины?</h2>
+            <div class="wrapper_btn">
+                <button id="no-btn" class="popup__button">Нет</button>
+                <button id="yes-btn" class="popup__button">да</button>
+            </div>
+        </div>
+    </div>
+
+      <div id="success" class="popup">
+        <div class="popup_wrapper">
+            <h2> Товары из корзины были удалены</h2>
+         
+                <button id="buy-btn" class="popup__button">Вернуться в каталог</button>
+               
+        </div>
+    </div>
+
+    </div>
+</header>
+<script src="js/script.js"></script>
+    
+</body>
+</html>
