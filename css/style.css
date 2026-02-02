@@ -111,3 +111,53 @@ body{
   background-color: #1c87c9;
   color: #fff;
 }
+
+.tab{
+  background-color: #2e04ff;
+  opacity: 0.8;
+}
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li{ 
+  list-style: none;
+  margin-right: 50px;
+  border: 1px solid #000;
+  padding: 10px;
+}
+a{
+   text-decoration: none;
+   cursor: pointer;
+}
+
+ li:hover{
+  background-color: #2e04ff;
+   color: white;
+  
+}
+.tabs_box{
+max-width: 300px;
+height: 100px;
+margin: 0 auto;
+border: 1px solid #000;
+}
+.lin li{
+  list-style: none; 
+  display: inline-block; 
+  padding: 5px 10px; 
+  border: 1px solid #333; 
+  cursor: pointer;
+}
+.tabs-content{
+  position: relative;
+}
+.tabs-content .tabs_box {
+  opacity: 0; 
+  position: absolute; 
+  transition: all 0.5s ease-in;
+}
+.tabs-content .tabs_box:last-child{
+  opacity: 1;
+} 
